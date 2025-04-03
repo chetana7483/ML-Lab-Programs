@@ -2,7 +2,7 @@ import pandas as pd
 from collections import Counter 
 import math
 
-tennis = pd.read_csv('player2.csv')
+tennis = pd.read_csv('player.csv')
 print("\n Given Play Tennis Data Set:\n\n", tennis)
 
 def entropy(alist):
